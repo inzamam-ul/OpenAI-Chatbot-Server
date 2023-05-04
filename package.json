@@ -2,9 +2,9 @@
   "name": "openai-chatbot-server",
   "version": "1.0.0",
   "description": "compete user promt using open ai",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app",
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Inzamamul Haque",
