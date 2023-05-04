@@ -4,9 +4,10 @@
   "description": "compete user promt using open ai",
   "main": "app.js",
   "scripts": {
+    "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Inzamamul Haqur",
+  "author": "Inzamamul Haque",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.4.0",
