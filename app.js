@@ -38,6 +38,9 @@ app.post("/chat", async (req, res) => {
   }
 });
 
+app.get("/", (req, res) => {
+  res.json({ message: "I'm OpenAI chatbot" });
+});
 // Start the server
 const PORT = 3000;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
