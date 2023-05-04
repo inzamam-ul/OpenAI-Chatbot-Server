@@ -18,7 +18,7 @@ app.post("/chat", async (req, res) => {
     // Make a request to the OpenAI API to generate a response to the chat message
     const response = await openai.createCompletion({
       model: "text-davinci-003",
-      prompt: "How to cure a plant disease?",
+      prompt: message,
       temperature: 0,
       max_tokens: 1024,
       top_p: 1,
